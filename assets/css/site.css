@@ -5,3 +5,25 @@ font-family: "Oswald", sans-serif; */
   margin: 0px;
   padding: 0px;
 }
+
+section{
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+img{
+  width: 100%;
+}
+div{
+  position:absolute;
+  top: 50%;
+  right: -15px;
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+}
+a:hover{
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 5px;
+}
